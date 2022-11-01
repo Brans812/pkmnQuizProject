@@ -1,0 +1,19 @@
+{
+  "name": "project-html-css-brandon-chaves",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000k\u0000m\u0000n\u0000Q\u0000u\u0000i\u0000z\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brans812/pkmnQuizProject.git"
+  },
+  "author": "Brandon Chaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brans812/pkmnQuizProject/issues"
+  },
+  "homepage": "https://github.com/Brans812/pkmnQuizProject#readme"
+}

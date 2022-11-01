@@ -1,0 +1,181 @@
+.main_title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: xx-large;
+    color: #FFCB05;
+    text-shadow: 0 0 20px #1c2e57;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+                                                
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+#main_body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 92vw auto;
+}
+.pharagaph {
+    writing-mode: vertical-rl;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: x-large;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.list_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.pkmn_name{
+    color: white;
+    text-shadow: 0 0 20px #1c2e57;
+    font-family: 'Pokemon Solid', sans-serif;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px 15px 15px 15px;
+}
+
+.pokemon{
+    margin: 5px;
+    background-color: #01D7FB;
+
+}
+
+.pkmn_img{
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+    
+}
+
+#sidebar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.green_button_container{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.green_button{
+    background-color: green;
+    align-self: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: white;
+    font-size: large;
+}
+
+.green_button_p{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.red_button_container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.red_button{
+    background-color: red;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: white;
+    display: flex;
+}
+
+.side_buttons{
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#main_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#types_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+}
+.types_btn{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 20em;
+    
+   
+}
+
+.types_p{
+    margin: 0;
+    font-size: xx-large;
+    text-shadow: 0 0 20px #1c2e57;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+
+.subtitle{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #01D7FB;
+    text-shadow: 0 0 20px #1c2e57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+#resistance_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+}
+
+
+.type_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#types_options{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+#test_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

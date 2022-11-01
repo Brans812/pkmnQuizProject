@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeList</title>
+    <link href="http://fonts.cdnfonts.com/css/pokemon-hollow?styles=24595,24596" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body style="background-color: #F21B54">
+    <div id="main_body">
+        <div>
+            <h1 class="main_title" id="header">Pokémon</h1>
+            <div style="display: flex; justify-content: center">
+                <input type="search" name="Pokemon" id="pokemon_search" placeholder="Enter a pokemon..." onkeypress="Enter, leer_2()">
+                <input type="submit" value="Search" class="red_button" onclick="leer_2()">
+            </div>
+            <h2 id="types_subtitle"></h2>
+            <div id="pokemon_list" class="list_container">
+                <!-- <div>
+                    <button class="pokemon">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="" class="pkmn_img">
+                        <p class="pkmn_name">ditto</p>
+                    </button>
+                    
+                </div>
+                <div class="pokemon">
+                    <button>
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokeon/132.png" alt="MissingNo">
+                        <p class="name_css">ditto</p>
+                    </button>
+                    
+                </div> -->
+        </div>
+        <h2 id="weakness_subtitle"></h2>
+        <div id="weakness_list" class="list_container"></div>
+        <h3 id="half_damage_subtitle"></h3>
+        <div id="half_damage_list" class="list_container"></div>
+        <h4 id="resistance_subtitle"></h4>
+        <div id="resistance_list" class="list_container"></div>
+    </div>
+    <div id="sidebar">
+        <form action="index.html">
+            <button class="red_button"><p style="margin: 0">Back</p></button>
+        </form>
+    
+    
+
+</body>
+<script src="JS/pokelist.js"></script>
+
+</html>
